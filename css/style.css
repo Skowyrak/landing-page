@@ -23,7 +23,6 @@ body {
 }
 
 section {
-  padding: 96px 0;
   text-align: center;
 }
 
@@ -61,6 +60,11 @@ section {
 }
 
 /* Splash */
+.splash {
+  position: relative;
+  height: 100vh;
+}
+
 .splash-inner {
   margin: 0;
   width: 100%;
