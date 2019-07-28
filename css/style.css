@@ -60,11 +60,6 @@ section {
 }
 
 /* Splash */
-.splash {
-  position: relative;
-  height: 100vh;
-}
-
 .splash-inner {
   margin: 0;
   width: 100%;
