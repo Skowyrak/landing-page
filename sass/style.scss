@@ -17,6 +17,7 @@ body {
   background-color: #f7fafc;
 }
 
+
 .container {
   max-width: 1140px;
   padding: 0 20px;
@@ -29,21 +30,22 @@ section {
 }
 /* Navigation */
 .wrapper {
-  max-width: 1600px;
+  padding-bottom: 100px;
   margin-left: auto;
   margin-right:auto;
   position: relative;
+  background-image: url('http://i66.tinypic.com/dh6ejn.jpg');
+  background-size: cover;
 }
 
 .navigation {
   padding: 12px 0;
-  position: absolute;
   z-index: 99;
-  right: 0;
 }
 
 .navigation ul {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
   margin: 30px;
   padding: 0;
 }
@@ -77,22 +79,10 @@ section {
   text-align: center;
 }
 
-.splash img {
-  object-fit: cover;
-  -webkit-filter: brightness(0.6);
-  -moz-filter: brightness(0.6);
-  -o-filter: brightness(0.6);
-  -ms-filter: brightness(0.6);
-  filter: brightness(0.6);
-}
 .splash-inner {
   margin: 0;
   width: 100%;
-  position: absolute;
   text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   z-index: 100px;
 }
 
@@ -177,6 +167,10 @@ section {
   text-align: center;
 }
 
+.card {
+  margin: 10px 20px;
+}
+
 .card-title {
     font-size: 16px;
     margin-bottom: 5px;
@@ -191,4 +185,36 @@ section {
   width: 100%;
  height: 300px;
  object-fit: cover;
+}
+
+/* Footer */
+.page-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.page-footer ul li {
+  display: inline-block;
+}
+
+.fab {
+  background-color: black;
+  line-height: 50px;
+  margin: 20px 5px;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.far {
+  margin: 50px 150px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: left;
 }
