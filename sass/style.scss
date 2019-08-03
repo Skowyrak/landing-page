@@ -36,6 +36,7 @@ section {
   position: relative;
   background-image: url('http://i66.tinypic.com/dh6ejn.jpg');
   background-size: cover;
+  filter: grayscale(100%);
 }
 
 .navigation {
@@ -44,23 +45,19 @@ section {
 }
 
 .navigation ul {
-  display: flex;
-  justify-content: flex-end;
-  margin: 30px;
-  padding: 0;
+  display: inline;
+  margin: 30px 100px;
 }
 
 .navigation li {
   display: inline;
   margin-left: 70px;
-  padding-top: 23px;
 }
 
 .navigation a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
 }
 
 .navigation a:hover {
@@ -70,6 +67,7 @@ section {
 .navigation a:hover::before {
   width: 100%;
 }
+
 
 /* Splash */
 .splash {
