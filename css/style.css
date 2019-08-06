@@ -18,7 +18,7 @@ body {
 
 .container {
   max-width: 1140px;
-  padding: 0 20px;
+  padding: 80px 10px;
   margin: 0 auto;
 }
 
@@ -44,7 +44,8 @@ section {
 
 .navigation ul {
   display: inline;
-  margin: 30px 100px;
+  margin: 30px 10px;
+  padding: 0 20%;
 }
 
 .navigation li {
@@ -64,6 +65,10 @@ section {
 
 .navigation a:hover::before {
   width: 100%;
+}
+
+.navigation img {
+  padding: 0 40px;
 }
 
 /* Splash */
@@ -161,6 +166,10 @@ section {
   display: flex;
 }
 
+.portfolio {
+  background-color: #F4F4F4;
+}
+
 .sentence-below-title-of-section {
   text-align: center;
 }
@@ -193,7 +202,6 @@ section {
   display: -ms-flexbox;
   display: flex;
   background-color: #fff;
-  margin-top: 100px;
 }
 
 .page-footer ul {
