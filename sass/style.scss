@@ -36,7 +36,6 @@ section {
   position: relative;
   background-image: url('http://i66.tinypic.com/dh6ejn.jpg');
   background-size: cover;
-  filter: grayscale(100%);
 }
 
 .navigation {
@@ -188,9 +187,13 @@ section {
 /* Footer */
 .page-footer {
   display: flex;
-  justify-content: center;
   background-color: #fff;
   margin-top: 100px;
+}
+
+.page-footer ul {
+  padding-left: 110px;
+  margin-top: 10px;
 }
 
 .page-footer ul li {
@@ -211,7 +214,6 @@ section {
 
 .far {
   margin: 50px 150px;
-  position: fixed;
   left: 0;
   bottom: 0;
   text-align: left;
